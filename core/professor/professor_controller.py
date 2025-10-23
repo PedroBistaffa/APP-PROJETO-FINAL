@@ -1,8 +1,8 @@
 from flask import Blueprint, request, jsonify
 from core.professor.professor_service import ProfessorService
 from core.professor.professor import Professor
+from core.validador.validador import validar_dados
 from auth.auth import autenticacao
-from validador.validador import validar_dados
 
 professor_service = ProfessorService()
 

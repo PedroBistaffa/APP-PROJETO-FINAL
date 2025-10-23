@@ -22,13 +22,13 @@ class Aluno:
     @property
     def idade(self):
         return self.__idade
-    @nome.setter
+    @idade.setter
     def idade(self, nova_idade):
         self.__idade = nova_idade
     
     @property
     def cpf(self):
         return self.__cpf
-    @nome.setter
+    @cpf.setter
     def cpf(self, novo_cpf):
         self.__cpf = novo_cpf
